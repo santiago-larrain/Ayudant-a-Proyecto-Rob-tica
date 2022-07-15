@@ -1,0 +1,61 @@
+{
+    "COM": "COM8",
+    "BR": 38400,
+    
+    "MAIN_WINDOW": "Observador",
+    "PROGRAM_WINDOW": "Vista foaclizada",
+    "MW_X": 0,
+    "MW_Y": 0,
+    "PW_X": 640,
+    "PW_Y": 0,
+    "RANGE": [5, 50, 60],
+    "DEFAULT_COLOR": [170, 255, 255],
+
+    "LARGO_AUTO": 10,
+    "MESSAGE": "{motor1},{motor2};",
+    
+    "PERIOD_COMS": 0.25,
+    "WASD_TIME": 0.2,
+    "KICK_TIME": 0.625,
+    
+    "MAX_VEL": 230.0,
+    "CAR_VEL": 150,
+    "DIST_TO_PWR": 3,
+
+    "STOPPING_THRESHOLD": 50,
+    "STOP_BALL_THRESHOLD": 20,
+    "STOP_THRESHOLD": 25,
+    "ANGLE_THRESHOLD": 10,
+    "PENALTY_SPACE_1": 50,
+    "PENALTY_SPACE_2": 25,
+
+    "kp": 65,
+    "ki": 40,
+    "kd": 0.01,
+    
+    "keys": {"49": "1",
+             "50": "2",
+             "51": "3",
+             "52": "4",
+             "53": "5",
+             "54": "6",
+             "55": "7",
+             "56": "8",
+             "57": "9",
+             "48": "0",
+             "87": "up_vel",
+             "83": "dw_vel",
+             "43": "max_vel",
+             "45": "rst_vel",
+             "8": "reset",
+             "32": "stop",
+             "119": "w",
+             "97": "a",
+             "115": "s",
+             "100": "d",
+             "101": "enemy",
+             "104": "help",
+             "111": "coms",
+             "112": "AI"
+            }
+}
